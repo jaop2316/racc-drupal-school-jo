@@ -5633,12 +5633,15 @@ html {
     height: 90px;
     color: white;
     font-family: "Raleway", sans-serif;
-  }
-  .information-block .box1:hover {
-    background-color: #f23321;
+    /*  &:hover{
+        background-color:$c-pomegranate;
+      }*/
   }
   .information-block .box1 p {
     text-align: center;
+  }
+  .information-block .box1 .active {
+    background-color: #f23321;
   }
   .information-block .box2 {
     width: 100%;
@@ -5649,12 +5652,15 @@ html {
     color: white;
     height: 90px;
     font-family: "Raleway", sans-serif;
-  }
-  .information-block .box2:hover {
-    background-color: #f23321;
+    /*&:hover{
+        background-color:$c-pomegranate;
+      }*/
   }
   .information-block .box2 p {
     text-align: center;
+  }
+  .information-block .box2 .active {
+    background-color: #f23321;
   }
   .information-block .box3 {
     width: 100%;
@@ -5665,12 +5671,15 @@ html {
     color: white;
     height: 90px;
     font-family: "Raleway", sans-serif;
-  }
-  .information-block .box3:hover {
-    background-color: #f23321;
+    /*  &:hover{
+        background-color:$c-pomegranate;
+      }*/
   }
   .information-block .box3 p {
     text-align: center;
+  }
+  .information-block .box3 .active {
+    background-color: #f23321;
   }
   .information-block .box4 {
     width: 100%;
@@ -5681,12 +5690,15 @@ html {
     color: white;
     height: 90px;
     font-family: "Raleway", sans-serif;
-  }
-  .information-block .box4:hover {
-    background-color: #f23321;
+    /*&:hover{
+        background-color:$c-pomegranate;
+      }*/
   }
   .information-block .box4 p {
     text-align: center;
+  }
+  .information-block .box4 .active {
+    background-color: #f23321;
   }
 }
 
@@ -5723,9 +5735,9 @@ html {
     background-color: #c8c9cb;
     height: 194px;
     font-family: "Raleway", sans-serif;
-  }
-  .information-block .col-izquierda .box1:hover {
-    background-color: #f23321;
+    /*&:hover{
+          background-color:$c-pomegranate;
+        }*/
   }
   .information-block .col-izquierda .box1 p {
     font-size: 35px;
@@ -5742,9 +5754,9 @@ html {
     color: white;
     height: 194px;
     font-family: "Raleway", sans-serif;
-  }
-  .information-block .col-izquierda .box2:hover {
-    background-color: #f23321;
+    /*  &:hover{
+          background-color:$c-pomegranate;
+        }*/
   }
   .information-block .col-izquierda .box2 p {
     font-size: 35px;
@@ -5752,6 +5764,9 @@ html {
     font-weight: 400;
     line-height: 39px;
     padding-top: 60px;
+  }
+  .information-block .col-izquierda .box2 .active {
+    background-color: #f23321;
   }
   .information-block .col-izquierda .box3 {
     width: 100%;
@@ -5762,9 +5777,9 @@ html {
     color: white;
     height: 194px;
     font-family: "Raleway", sans-serif;
-  }
-  .information-block .col-izquierda .box3:hover {
-    background-color: #f23321;
+    /*  &:hover{
+          background-color:$c-pomegranate;
+        }*/
   }
   .information-block .col-izquierda .box3 p {
     font-size: 35px;
@@ -5772,6 +5787,9 @@ html {
     font-weight: 400;
     line-height: 39px;
     padding-top: 60px;
+  }
+  .information-block .col-izquierda .box3 .active {
+    background-color: #f23321;
   }
   .information-block .col-izquierda .box4 {
     width: 100%;
@@ -5782,9 +5800,9 @@ html {
     color: white;
     height: 194px;
     font-family: "Raleway", sans-serif;
-  }
-  .information-block .col-izquierda .box4:hover {
-    background-color: #f23321;
+    /*&:hover{
+          background-color:$c-pomegranate;
+        }*/
   }
   .information-block .col-izquierda .box4 p {
     font-size: 35px;
@@ -5792,6 +5810,9 @@ html {
     font-weight: 400;
     line-height: 39px;
     padding-top: 60px;
+  }
+  .information-block .col-izquierda .box4 .active {
+    background-color: #f23321;
   }
   .information-block .col-derecha {
     width: 68.75%;
@@ -5851,14 +5872,8 @@ html {
   }
 }
 
-.information-block .col1 {
-  width: 74.76636%;
-  float: left;
-}
-
-.information-block .col2 {
-  width: 24.29907%;
-  float: left;
+.information-block .active {
+  background-color: #f23321 !important;
 }
 
 /*.information-block{

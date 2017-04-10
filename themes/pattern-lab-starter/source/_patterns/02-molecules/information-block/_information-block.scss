@@ -39,12 +39,15 @@ $base-line-height: 24px;
       height: 90px;
       color:$c-white;
       font-family: $ff--alternate;
-      &:hover{
+    /*  &:hover{
         background-color:$c-pomegranate;
-      }
+      }*/
       p{
         text-align: center;
         //font-size: 35px;
+      }
+      .active{
+        background-color:$c-pomegranate;
       }
     }
     .box2{
@@ -53,12 +56,15 @@ $base-line-height: 24px;
       color:$c-white;
       height: 90px;
       font-family: $ff--alternate;
-      &:hover{
+      /*&:hover{
         background-color:$c-pomegranate;
-      }
+      }*/
       p{
         text-align: center;
         //font-size: 35px;
+      }
+      .active{
+        background-color:$c-pomegranate;
       }
     }
     .box3{
@@ -67,12 +73,15 @@ $base-line-height: 24px;
       color:$c-white;
       height: 90px;
       font-family: $ff--alternate;
-      &:hover{
+    /*  &:hover{
         background-color:$c-pomegranate;
-      }
+      }*/
       p{
         text-align: center;
         //font-size: 35px;
+      }
+      .active{
+        background-color:$c-pomegranate;
       }
 
     }
@@ -82,12 +91,15 @@ $base-line-height: 24px;
       color:$c-white;
       height: 90px;
       font-family: $ff--alternate;
-      &:hover{
+      /*&:hover{
         background-color:$c-pomegranate;
-      }
+      }*/
       p{
         text-align: center;
         //font-size: 35px;
+      }
+      .active{
+        background-color:$c-pomegranate;
       }
 
     }
@@ -112,9 +124,9 @@ $base-line-height: 24px;
         //margin-left: 277px;
         //color:$c-white;
         font-family: $ff--alternate;
-        &:hover{
+        /*&:hover{
           background-color:$c-pomegranate;
-        }
+        }*/
         p{
         font-size: 35px;
         text-align: center;
@@ -122,6 +134,7 @@ $base-line-height: 24px;
         line-height: 39px;
         padding-top: 60px;
         }
+
       }
       .box2{
         @include span(12);
@@ -130,15 +143,18 @@ $base-line-height: 24px;
         height: 194px;
         font-family: $ff--alternate;
         //margin-left: 277px;
-        &:hover{
+      /*  &:hover{
           background-color:$c-pomegranate;
-        }
+        }*/
         p{
         font-size: 35px;
         text-align: center;
         font-weight: 400;
         line-height: 39px;
         padding-top: 60px;
+        }
+        .active{
+          background-color:$c-pomegranate;
         }
       }
 
@@ -149,15 +165,18 @@ $base-line-height: 24px;
         height: 194px;
         font-family: $ff--alternate;
         //margin-left: 277px;
-        &:hover{
+      /*  &:hover{
           background-color:$c-pomegranate;
-        }
+        }*/
         p{
         font-size: 35px;
         text-align: center;
         font-weight: 400;
         line-height: 39px;
         padding-top: 60px;
+        }
+        .active{
+          background-color:$c-pomegranate;
         }
 
       }
@@ -169,9 +188,9 @@ $base-line-height: 24px;
         height: 194px;
         font-family: $ff--alternate;
         //margin-left: 277px;
-        &:hover{
+        /*&:hover{
           background-color:$c-pomegranate;
-        }
+        }*/
         p{
         font-size: 35px;
         text-align: center;
@@ -179,6 +198,10 @@ $base-line-height: 24px;
         line-height: 39px;
         padding-top: 60px;
         }
+        .active{
+          background-color:$c-pomegranate;
+        }
+
 
       }
 
@@ -256,17 +279,11 @@ $base-line-height: 24px;
 
   }
     }
-    .col1{
-      @include span(9);
+
+    .active{
+      background-color:$c-pomegranate !important;
     }
 
-    .col2{
-      @include span(3);
-    }
-
-    
-
-    
 }
 
 
