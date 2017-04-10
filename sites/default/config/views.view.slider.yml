@@ -113,6 +113,7 @@ display:
                     title: 0
                     body: 0
                     field_url: 0
+                    counter: 0
                   views_slideshow_pager_fields_hover: 0
             bottom:
               views_slideshow_controls:
@@ -121,7 +122,7 @@ display:
                 hide_on_single_slide: '1'
                 type: views_slideshow_controls_text
               views_slideshow_slide_counter:
-                enable: true
+                enable: false
                 weight: '1'
                 hide_on_single_slide: '0'
               views_slideshow_pager:
@@ -131,6 +132,7 @@ display:
                 type: views_slideshow_pager_fields
                 views_slideshow_pager_fields:
                   views_slideshow_pager_fields_fields:
+                    counter: counter
                     field_image: 0
                     title: 0
                     body: 0
@@ -397,6 +399,56 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+        counter:
+          id: counter
+          table: views
+          field: counter
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: true
+            text: '<i class="fa fa-minus" aria-hidden="true"></i>'
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: counter-slider
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: false
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          counter_start: 1
+          plugin_id: counter
       filters:
         status:
           value: '1'

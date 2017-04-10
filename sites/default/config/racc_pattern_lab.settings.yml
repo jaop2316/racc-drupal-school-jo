@@ -5,6 +5,6 @@ features:
   favicon: 1
 logo:
   use_default: 0
-  path: 'public://logo.PNG'
+  path: 'public://logo_0.PNG'
 favicon:
   use_default: 1
