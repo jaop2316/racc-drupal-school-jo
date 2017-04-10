@@ -1294,11 +1294,11 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          operator: '>='
+          operator: '>'
           value:
             min: ''
             max: ''
-            value: now
+            value: yesterday
             type: offset
           group: 1
           exposed: false
@@ -1339,11 +1339,11 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          order: DESC
+          order: ASC
           exposed: false
           expose:
             label: ''
-          granularity: month
+          granularity: second
           plugin_id: datetime
       pager:
         type: some
