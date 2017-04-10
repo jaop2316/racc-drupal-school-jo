@@ -36,6 +36,7 @@ $small-range: 381px 800px;
 
     .slider-image{
       @include span(4);
+      height: 400px;
       position:relative;
           &::before{
         content: '';
@@ -110,6 +111,26 @@ $small-range: 381px 800px;
       left: 11%;
       display:none;
     }
+
+    #widget_pager_bottom_slider-homepage_slideshow{
+      position: absolute;
+      top: 4.7%;
+      left: 38%;
+      z-index: 200;
+    }
+
+    .views_slideshow_pager_field_item{
+      float:left;
+      padding:14px;
+      //margin-right: 5px;
+      color:$c-white;
+      font-family: $ff--alternate;
+      .fa { transform: scale(2.3,1); }
+    }
+
+   .views_slideshow_pager_field_item.active{
+     color: $c-pomegranate;
+   }
 
   }
   @include susy-breakpoint($screen-medium-12cols, 12) {

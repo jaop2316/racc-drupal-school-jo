@@ -6370,6 +6370,7 @@ html {
   .slider .slider-image {
     width: 32.53012%;
     float: left;
+    height: 400px;
     position: relative;
   }
   .slider .slider-image::before {
@@ -6434,6 +6435,24 @@ html {
     z-index: 200;
     left: 11%;
     display: none;
+  }
+  .slider #widget_pager_bottom_slider-homepage_slideshow {
+    position: absolute;
+    top: 4.7%;
+    left: 38%;
+    z-index: 200;
+  }
+  .slider .views_slideshow_pager_field_item {
+    float: left;
+    padding: 14px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+  }
+  .slider .views_slideshow_pager_field_item .fa {
+    transform: scale(2.3, 1);
+  }
+  .slider .views_slideshow_pager_field_item.active {
+    color: #f23321;
   }
 }
 
