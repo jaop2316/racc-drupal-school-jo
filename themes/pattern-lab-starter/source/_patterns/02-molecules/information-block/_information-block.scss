@@ -109,10 +109,15 @@ $base-line-height: 24px;
     @include container();
     z-index: 100;
     position: relative;
-    margin-top: -100px;
+    margin-top: -388px;
     .container-information{
        @include span(73.33333%);
        float:right;
+       &:after{
+         content: " ";
+         display: block;
+         clear: both;
+       }
     }
     .col-izquierda{
       @include span(31.25%);

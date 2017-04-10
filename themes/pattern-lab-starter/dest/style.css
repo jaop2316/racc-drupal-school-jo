@@ -4337,6 +4337,10 @@ html {
     font-size: 35px;
     font-family: "Raleway", sans-serif;
   }
+  .form-block .contact-content input#edit-field-name-0-value::before {
+    color: white;
+    content: "Name";
+  }
 }
 
 .branding__logo {
@@ -5709,7 +5713,7 @@ html {
     margin-right: auto;
     z-index: 100;
     position: relative;
-    margin-top: -100px;
+    margin-top: -388px;
   }
   .information-block:after {
     content: " ";
@@ -5720,6 +5724,11 @@ html {
     width: 73.33333%;
     float: left;
     float: right;
+  }
+  .information-block .container-information:after {
+    content: " ";
+    display: block;
+    clear: both;
   }
   .information-block .col-izquierda {
     width: 31.25%;
@@ -6447,7 +6456,7 @@ html {
   }
   .slider #views_slideshow_cycle_main_slider-homepage_slideshow .views-field-title a {
     position: absolute;
-    top: 42%;
+    top: 39%;
     left: 10.5%;
     color: white;
     font-family: "Raleway", sans-serif;
@@ -6480,7 +6489,7 @@ html {
   }
   .slider #views_slideshow_cycle_main_slider-homepage_slideshow .views-field-body p {
     position: absolute;
-    top: 60%;
+    top: 53%;
     left: 10.5%;
     color: white;
     font-family: "Raleway", sans-serif;
@@ -6490,7 +6499,7 @@ html {
   }
   .slider #views_slideshow_cycle_main_slider-homepage_slideshow .views-field-field-url a {
     position: absolute;
-    top: 65%;
+    top: 57%;
     left: 10.5%;
     color: white;
     text-decoration: underline;
@@ -6504,7 +6513,7 @@ html {
   .slider #views_slideshow_controls_text_previous_slider-homepage_slideshow {
     position: absolute;
     z-index: 200;
-    top: 55%;
+    top: 46%;
     left: 2%;
     background-image: url("previus.png");
     background-repeat: no-repeat;
@@ -6517,7 +6526,7 @@ html {
   .slider #views_slideshow_controls_text_next_slider-homepage_slideshow {
     position: absolute;
     z-index: 200;
-    top: 55%;
+    top: 46%;
     left: 96%;
   }
   .slider #views_slideshow_controls_text_next_slider-homepage_slideshow a {
@@ -6542,7 +6551,7 @@ html {
   }
   .slider #widget_pager_bottom_slider-homepage_slideshow {
     position: absolute;
-    top: 68%;
+    top: 62%;
     left: 10.5%;
     z-index: 200;
   }
