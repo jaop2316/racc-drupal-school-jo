@@ -6481,7 +6481,7 @@ html {
   .slider #views_slideshow_cycle_main_slider-homepage_slideshow .views-field-body p {
     position: absolute;
     top: 60%;
-    left: 11%;
+    left: 10.5%;
     color: white;
     font-family: "Raleway", sans-serif;
     width: 400px;
@@ -6490,11 +6490,12 @@ html {
   }
   .slider #views_slideshow_cycle_main_slider-homepage_slideshow .views-field-field-url a {
     position: absolute;
-    top: 70%;
-    left: 11%;
+    top: 65%;
+    left: 10.5%;
     color: white;
     text-decoration: underline;
     z-index: 200;
+    line-height: 1.8;
   }
   .slider #views_slideshow_cycle_main_slider-homepage_slideshow .views-field-field-url a:hover {
     text-decoration: none;
@@ -6507,6 +6508,7 @@ html {
     left: 2%;
     background-image: url("previus.png");
     background-repeat: no-repeat;
+    /*.fa { transform: scale(3.9,1); }*/
   }
   .slider #views_slideshow_controls_text_previous_slider-homepage_slideshow a {
     color: white;
@@ -6533,7 +6535,29 @@ html {
     top: 85%;
     z-index: 200;
     left: 11%;
-    display: none;
+    color: white;
+  }
+  .slider #views_slideshow_slide_counter_slider-homepage_slideshow .num::before {
+    content: "-";
+  }
+  .slider #widget_pager_bottom_slider-homepage_slideshow {
+    position: absolute;
+    top: 68%;
+    left: 10.5%;
+    z-index: 200;
+  }
+  .slider .views_slideshow_pager_field_item {
+    float: left;
+    padding: 20px;
+    margin-right: 5px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+  }
+  .slider .views_slideshow_pager_field_item .fa {
+    transform: scale(3.9, 1);
+  }
+  .slider .views_slideshow_pager_field_item.active {
+    color: #f23321;
   }
 }
 
