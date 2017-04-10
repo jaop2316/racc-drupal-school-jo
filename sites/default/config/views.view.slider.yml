@@ -6,12 +6,12 @@ dependencies:
     - field.storage.node.body
     - field.storage.node.field_image
     - field.storage.node.field_url
-    - image.style.slider_homepage_1600x980_
     - node.type.slider
+    - responsive_image.styles.slider_responsive
   module:
-    - image
     - link
     - node
+    - responsive_image
     - text
     - user
     - views_slideshow
@@ -190,9 +190,9 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: image
+          type: responsive_image
           settings:
-            image_style: slider_homepage_1600x980_
+            responsive_image_style: slider_responsive
             image_link: ''
           group_column: ''
           group_columns: {  }

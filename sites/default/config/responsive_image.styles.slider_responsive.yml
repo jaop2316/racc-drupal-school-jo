@@ -7,24 +7,24 @@ dependencies:
     - image.style.slider_medium_768x663_
     - image.style.slider_small_370x400_
   theme:
-    - bartik
+    - racc_pattern_lab
 id: slider_responsive
 label: 'Slider responsive'
 image_style_mappings:
   -
-    breakpoint_id: bartik.wide
+    breakpoint_id: racc_pattern_lab.wide
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: slider_large_1600x1239
   -
-    breakpoint_id: bartik.narrow
+    breakpoint_id: racc_pattern_lab.narrow
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: slider_medium_768x663_
   -
-    breakpoint_id: bartik.mobile
+    breakpoint_id: racc_pattern_lab.mobile
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: slider_small_370x400_
-breakpoint_group: bartik
+breakpoint_group: racc_pattern_lab
 fallback_image_style: slider_small_370x400_
