@@ -6395,9 +6395,18 @@ html {
     width: 370px !important;
     height: 400px !important;
   }
+  .slider #views_slideshow_cycle_div_slider-homepage_slideshow_0 {
+    height: 400px !important;
+  }
+  .slider #views_slideshow_cycle_div_slider-homepage_slideshow_1 {
+    height: 400px !important;
+  }
+  .slider #views_slideshow_cycle_div_slider-homepage_slideshow_2 {
+    height: 400px !important;
+  }
   .slider #views_slideshow_cycle_main_slider-homepage_slideshow .views-field-title a {
     position: absolute;
-    top: 20%;
+    top: 60%;
     left: 2%;
     color: white;
     font-family: "Raleway", sans-serif;
@@ -6421,7 +6430,7 @@ html {
   .slider #views_slideshow_controls_text_previous_slider-homepage_slideshow {
     position: absolute;
     z-index: 200;
-    top: 1.5%;
+    top: 2%;
     left: 2%;
   }
   .slider #views_slideshow_controls_text_previous_slider-homepage_slideshow a {
@@ -6431,8 +6440,8 @@ html {
   .slider #views_slideshow_controls_text_next_slider-homepage_slideshow {
     position: absolute;
     z-index: 200;
-    top: 1.5%;
-    left: 90%;
+    top: 2%;
+    left: 86%;
   }
   .slider #views_slideshow_controls_text_next_slider-homepage_slideshow a {
     color: white;
@@ -6450,8 +6459,8 @@ html {
   }
   .slider #widget_pager_bottom_slider-homepage_slideshow {
     position: absolute;
-    top: 4.7%;
-    left: 38%;
+    top: 5.1%;
+    left: 34.5%;
     z-index: 200;
   }
   .slider .views_slideshow_pager_field_item {

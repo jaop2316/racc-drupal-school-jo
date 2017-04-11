@@ -57,10 +57,26 @@ $small-range: 381px 800px;
       height: 400px !important;
     }
 
+    #views_slideshow_cycle_div_slider-homepage_slideshow_0{
+      //width:  370px !important;
+      height: 400px !important;
+    }
+
+
+    #views_slideshow_cycle_div_slider-homepage_slideshow_1{
+      //width:  370px !important;
+      height: 400px !important;
+    }
+
+    #views_slideshow_cycle_div_slider-homepage_slideshow_2{
+      //width:  370px !important;
+      height: 400px !important;
+    }
+
      #views_slideshow_cycle_main_slider-homepage_slideshow .views-field-title a{
 
       position:absolute;
-      top:20%;
+      top:60%;
       left:2%;
       color:$c-white;
       font-family: $ff--alternate;
@@ -87,7 +103,7 @@ $small-range: 381px 800px;
      #views_slideshow_controls_text_previous_slider-homepage_slideshow{
       position:absolute;
       z-index: 200;
-      top: 1.5%;
+      top: 2%;
       left:2%;
       a{
         color:$c-white;
@@ -99,8 +115,8 @@ $small-range: 381px 800px;
       #views_slideshow_controls_text_next_slider-homepage_slideshow{
       position:absolute;
       z-index: 200;
-      top:1.5%;
-      left:90%;
+      top:2%;
+      left:86%;
       a{
         color:$c-white;
         font-size: 35px;
@@ -121,8 +137,8 @@ $small-range: 381px 800px;
 
     #widget_pager_bottom_slider-homepage_slideshow{
       position: absolute;
-      top: 4.7%;
-      left: 38%;
+      top: 5.1%;
+      left: 34.5%;
       z-index: 200;
     }
 
