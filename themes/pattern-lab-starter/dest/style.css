@@ -4100,6 +4100,14 @@ html {
     display: block;
     clear: both;
   }
+  .student-block-container .row-title .features-title {
+    width: 98.333%;
+    float: left;
+  }
+  .student-block-container .row-title .features-title h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 0.875rem;
+  }
 }
 
 @media (min-width: 840px) {
@@ -4132,12 +4140,6 @@ html {
     padding-top: 20px;
     padding-left: 15px;
   }
-}
-
-.row-title {
-  /*.features-more{
-  @include span(6);
-}*/
 }
 
 .row-title .features-title h2 {
@@ -4383,6 +4385,7 @@ html {
     padding-bottom: 90px;
     padding-left: 240px;
     padding-right: 80px;
+    border-bottom: 4px solid white;
   }
   .brands-block:after {
     content: " ";
@@ -5714,6 +5717,12 @@ html {
   }
   .information-block .fa {
     transform: scale(2, 2);
+  }
+  .information-block .col-derecha {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
