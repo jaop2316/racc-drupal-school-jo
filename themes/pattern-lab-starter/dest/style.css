@@ -5643,6 +5643,8 @@ html {
   }
   .information-block .box1 p {
     text-align: center;
+    font-size: 23px;
+    padding-top: 30px;
   }
   .information-block .box1 .active {
     background-color: #f23321;
@@ -5662,6 +5664,8 @@ html {
   }
   .information-block .box2 p {
     text-align: center;
+    font-size: 23px;
+    padding-top: 30px;
   }
   .information-block .box2 .active {
     background-color: #f23321;
@@ -5681,6 +5685,8 @@ html {
   }
   .information-block .box3 p {
     text-align: center;
+    font-size: 23px;
+    padding-top: 30px;
   }
   .information-block .box3 .active {
     background-color: #f23321;
@@ -5700,6 +5706,8 @@ html {
   }
   .information-block .box4 p {
     text-align: center;
+    font-size: 23px;
+    padding-top: 30px;
   }
   .information-block .box4 .active {
     background-color: #f23321;
