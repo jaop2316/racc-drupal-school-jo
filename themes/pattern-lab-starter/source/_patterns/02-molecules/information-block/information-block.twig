@@ -3,11 +3,11 @@
 {%for item in items %}
       {%if counter == 1 %}
       <div class="box{{counter}} active" onclick="openTab(event, 'tab-content{{counter}}')">
-        <p>{{ item.content }}</p>
+        <p>{{ item.content }} <i class="fa fa-angle-down" aria-hidden="true"></i></p>
       </div>
       {% else %}
       <div class="box{{counter}}" onclick="openTab(event, 'tab-content{{counter}}')">
-        <p>{{ item.content }}</p>
+        <p>{{ item.content }} <i class="fa fa-angle-down" aria-hidden="true"></i></p>
       </div>
       {% endif %}
   {% set counter = counter + 1 %}

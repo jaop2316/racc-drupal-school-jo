@@ -5643,7 +5643,7 @@ html {
   }
   .information-block .box1 p {
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
     padding-top: 30px;
   }
   .information-block .box1 .active {
@@ -5664,7 +5664,7 @@ html {
   }
   .information-block .box2 p {
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
     padding-top: 30px;
   }
   .information-block .box2 .active {
@@ -5685,7 +5685,7 @@ html {
   }
   .information-block .box3 p {
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
     padding-top: 30px;
   }
   .information-block .box3 .active {
@@ -5706,11 +5706,14 @@ html {
   }
   .information-block .box4 p {
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
     padding-top: 30px;
   }
   .information-block .box4 .active {
     background-color: #f23321;
+  }
+  .information-block .fa {
+    transform: scale(2, 2);
   }
 }
 
@@ -5886,6 +5889,9 @@ html {
   .information-block .col-derecha .row-title h2 {
     font-family: "Raleway", sans-serif;
     font-size: 35px;
+  }
+  .information-block .fa {
+    display: none;
   }
 }
 
