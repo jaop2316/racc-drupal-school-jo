@@ -32,10 +32,11 @@ $small-range: 381px 800px;
 
     .container-slider{
       @include span(8);
+
     }
 
     .slider-image{
-      @include span(4);
+      @include span(3);
       height: 400px;
       position:relative;
           &::before{
@@ -48,6 +49,12 @@ $small-range: 381px 800px;
         background:linear-gradient(to bottom,rgba(255,255,255,0) 20%,black 100%);
         z-index: 100;
       }
+    }
+
+
+    #views_slideshow_cycle_teaser_section_slider-homepage_slideshow{
+      width:  370px !important;
+      height: 400px !important;
     }
 
      #views_slideshow_cycle_main_slider-homepage_slideshow .views-field-title a{

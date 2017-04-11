@@ -6368,7 +6368,7 @@ html {
     float: left;
   }
   .slider .slider-image {
-    width: 32.53012%;
+    width: 24.09639%;
     float: left;
     height: 400px;
     position: relative;
@@ -6382,6 +6382,10 @@ html {
     bottom: 0;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 20%, black 100%);
     z-index: 100;
+  }
+  .slider #views_slideshow_cycle_teaser_section_slider-homepage_slideshow {
+    width: 370px !important;
+    height: 400px !important;
   }
   .slider #views_slideshow_cycle_main_slider-homepage_slideshow .views-field-title a {
     position: absolute;
