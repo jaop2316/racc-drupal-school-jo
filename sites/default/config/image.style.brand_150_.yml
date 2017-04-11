@@ -1,0 +1,15 @@
+uuid: 9229e075-74b2-4d6f-8932-9d0ad958c76e
+langcode: en
+status: true
+dependencies: {  }
+name: brand_150_
+label: 'Brand (150)'
+effects:
+  44b00ff6-45f6-42aa-b4a4-7fbb2166e87b:
+    uuid: 44b00ff6-45f6-42aa-b4a4-7fbb2166e87b
+    id: image_scale
+    weight: 1
+    data:
+      width: null
+      height: 150
+      upscale: false
