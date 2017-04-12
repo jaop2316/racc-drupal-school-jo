@@ -11,10 +11,10 @@ dependencies:
     - field.field.block_content.layout_content.field_sidebar_title
     - field.field.block_content.layout_content.field_title
     - field.field.block_content.layout_content.field_video_link
+    - image.style.about_content_image
   module:
     - ds
     - image
-    - responsive_image
     - text
     - video_embed_field
 third_party_settings:
@@ -31,6 +31,7 @@ third_party_settings:
         - field_banner
         - field_sidebar_title
         - field_sidebar_body
+        - field_image
         - field_video_link
         - field_title
         - body
@@ -42,7 +43,7 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 5
+    weight: 6
     settings: {  }
     third_party_settings: {  }
   field_banner:
@@ -54,11 +55,11 @@ content:
     third_party_settings: {  }
     type: image
   field_image:
-    type: responsive_image
-    weight: 0
-    label: above
+    type: image
+    weight: 3
+    label: hidden
     settings:
-      responsive_image_style: ''
+      image_style: about_content_image
       image_link: ''
     third_party_settings: {  }
   field_sidebar_body:
@@ -75,28 +76,24 @@ content:
     third_party_settings: {  }
     type: string
   field_title:
-    weight: 4
+    weight: 5
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
   field_video_link:
-    weight: 3
+    weight: 4
     label: hidden
     settings:
+      image_style: about_content_image
+      link_image_to: ''
       responsive: true
       width: 854
       height: 480
-      autoplay: true
+      modal_max_width: 854
+      autoplay: false
     third_party_settings: {  }
-    type: video_embed_field_video
-  langcode:
-    type: language
-    weight: 0
-    label: above
-    settings:
-      link_to_entity: false
-      native_language: false
-    third_party_settings: {  }
-hidden: {  }
+    type: video_embed_field_colorbox
+hidden:
+  langcode: true
