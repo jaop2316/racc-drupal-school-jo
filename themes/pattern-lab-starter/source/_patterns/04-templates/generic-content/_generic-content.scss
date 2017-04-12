@@ -4,7 +4,7 @@ $susy: (
   math: fluid,
   output: float,
   gutter-position: outside,
-  global-box-sizing: border-box,
+  //global-box-sizing: border-box,
   // debug: (image: show)
 );
 
@@ -25,6 +25,7 @@ $base-line-height: 24px;
   }
   @include susy-breakpoint($screen-medium-12cols, 12) {
     @include container();
+    box-sizing: border-box;
     .clearfix::after {
       content: "";
       clear: both;
@@ -33,12 +34,14 @@ $base-line-height: 24px;
      .top-banner{
       @include span(12);
       position:relative;
+      display: block;
      }
 
      .container{
        @include span(12);
        position: relative;
        margin-top: -400px;
+       flex-direction: row;
        &::after{
          content: " ";
          display: block;
@@ -46,9 +49,11 @@ $base-line-height: 24px;
        }
      }
     .col-left{
-      @include span(3);
+      @include span(27.66667%);
+      box-sizing: border-box;
       background-color: $c-pomegranate;
       //float:left;
+      //display: flex;
       h1{
         font-family: $ff--alternate;
         color:$c-white;
@@ -64,7 +69,7 @@ $base-line-height: 24px;
         padding-left: 45px;
         padding-right: 50px;
         line-height: 30px;
-        padding-bottom: 100px;
+        padding-bottom: 240px;
       }
 
     }
@@ -74,16 +79,19 @@ $base-line-height: 24px;
 
     .col-right{
       @include span(7);
+      box-sizing: border-box;
       p{
         font-family: $ff--regular;
         font-size: 16px;
         line-height: 25px;
         padding-left: 45px;
+        padding-bottom: 20px;
       }
       h2{
-        font-family: $ff--regular;
+        font-family: $ff--alternate;
         font-size: 35px;
         padding-left: 45px;
+        padding-top: 20px;
       }
 
     }

@@ -3696,6 +3696,17 @@
   }
 }
 
+html, body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.clear-block {
+  clear: both;
+}
+
 .u-spacing {
   margin-top: 24px;
   margin-bottom: 24px;
@@ -6192,6 +6203,10 @@ html {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    float: left;
+    display: -ms-flexbox;
+    display: flex;
     background-color: #323339;
     height: 462px;
     color: white;
@@ -6655,6 +6670,7 @@ html {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
   }
   .generic-content:after {
     content: " ";
@@ -6672,6 +6688,7 @@ html {
     margin-left: 0;
     margin-right: 0;
     position: relative;
+    display: block;
   }
   .generic-content .container {
     width: 100%;
@@ -6680,6 +6697,8 @@ html {
     margin-right: 0;
     position: relative;
     margin-top: -400px;
+    -ms-flex-direction: row;
+        flex-direction: row;
   }
   .generic-content .container::after {
     content: " ";
@@ -6687,8 +6706,9 @@ html {
     clear: both;
   }
   .generic-content .col-left {
-    width: 24.09639%;
+    width: 27.66667%;
     float: left;
+    box-sizing: border-box;
     background-color: #f23321;
   }
   .generic-content .col-left h1 {
@@ -6706,7 +6726,7 @@ html {
     padding-left: 45px;
     padding-right: 50px;
     line-height: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 240px;
   }
   .generic-content .col-left-body {
     width: 49.39759%;
@@ -6715,17 +6735,20 @@ html {
   .generic-content .col-right {
     width: 57.83133%;
     float: left;
+    box-sizing: border-box;
   }
   .generic-content .col-right p {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 25px;
     padding-left: 45px;
+    padding-bottom: 20px;
   }
   .generic-content .col-right h2 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 35px;
     padding-left: 45px;
+    padding-top: 20px;
   }
   .generic-content .col-right-title {
     width: 49.39759%;
