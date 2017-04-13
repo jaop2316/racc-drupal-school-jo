@@ -6181,13 +6181,13 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to bottom, rgba(10, 10, 10, 0) 0%, rgba(10, 10, 10, 0.65) 100%);
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0) 0%, rgba(10, 10, 10, 0.4) 100%);
     z-index: 1;
   }
   .grid-getconnect .message-getconnect {
     position: absolute;
-    margin-top: -250px;
-    margin-left: 50px;
+    margin-top: -180px;
+    padding-left: 50px;
     margin-right: 70px;
     padding-right: 60px;
     color: white;
@@ -6198,7 +6198,7 @@ html {
   .grid-getconnect .url-getconnect {
     position: absolute;
     z-index: 2;
-    margin-top: -100px;
+    margin-top: -50px;
     margin-left: 130px;
   }
   .grid-getconnect .url-getconnect a {
@@ -6207,8 +6207,7 @@ html {
   .grid-getconnect .type-getconnect {
     position: absolute;
     z-index: 2;
-    margin-top: -100px;
-    margin-left: 40px;
+    margin-top: -50px;
     color: white;
     font-size: 30px;
     margin-left: 50px;
