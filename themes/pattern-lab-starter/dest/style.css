@@ -6201,12 +6201,15 @@ html {
     margin-top: -100px;
     margin-left: 130px;
   }
+  .grid-getconnect .url-getconnect a {
+    color: white;
+  }
   .grid-getconnect .type-getconnect {
     position: absolute;
     z-index: 2;
     margin-top: -100px;
     margin-left: 40px;
-    color: red;
+    color: white;
     font-size: 30px;
     margin-left: 50px;
   }
