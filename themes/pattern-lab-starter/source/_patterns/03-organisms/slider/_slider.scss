@@ -109,6 +109,10 @@ $small-range: 381px 800px;
         color:$c-white;
         font-size: 35px;
       }
+      &:before {
+        //content: url("/racc-drupal-school-jo/themes/pattern-lab-starter/images/prev_icon.png");
+        content: url("/themes/pattern-lab-starter/images/prev_icon.png");
+      }
 
     }
 
@@ -116,10 +120,14 @@ $small-range: 381px 800px;
       position:absolute;
       z-index: 200;
       top:2%;
-      left:86%;
+      left:80%;
       a{
         color:$c-white;
         font-size: 35px;
+      }
+      &:before {
+        //content: url("/racc-drupal-school-jo/themes/pattern-lab-starter/images/next_icon.png");
+        content: url("/themes/pattern-lab-starter/images/next_icon.png");
       }
     }
 

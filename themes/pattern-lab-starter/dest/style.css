@@ -6524,15 +6524,21 @@ html {
     color: white;
     font-size: 35px;
   }
+  .slider #views_slideshow_controls_text_previous_slider-homepage_slideshow:before {
+    content: url("/themes/pattern-lab-starter/images/prev_icon.png");
+  }
   .slider #views_slideshow_controls_text_next_slider-homepage_slideshow {
     position: absolute;
     z-index: 200;
     top: 2%;
-    left: 86%;
+    left: 80%;
   }
   .slider #views_slideshow_controls_text_next_slider-homepage_slideshow a {
     color: white;
     font-size: 35px;
+  }
+  .slider #views_slideshow_controls_text_next_slider-homepage_slideshow:before {
+    content: url("/themes/pattern-lab-starter/images/next_icon.png");
   }
   .slider #views_slideshow_controls_text_pause_slider-homepage_slideshow {
     display: none;
