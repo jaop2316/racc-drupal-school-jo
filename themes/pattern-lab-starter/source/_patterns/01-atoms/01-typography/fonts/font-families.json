@@ -9,6 +9,11 @@
       "name": "$ff--alternate",
       "value": "'Raleway', sans-serif",
       "comment": ""
+    },
+    {
+      "name": "$ff--montserrat",
+      "value": "'Montserrat', sans-serif",
+      "comment": ""
     }
   ],
   "meta": {

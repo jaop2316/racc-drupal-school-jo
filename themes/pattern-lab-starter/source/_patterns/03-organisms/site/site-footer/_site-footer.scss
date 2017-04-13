@@ -41,6 +41,9 @@ $container-style: fluid;
     color:$c-pomegranate;
     font-size:12px;
     padding-left:40px;
+    font-family: $ff--montserrat;
+    font-weight: $fw--400;
+    letter-spacing: 1px;
   }
 
   .column-grid-item-1{
@@ -65,8 +68,10 @@ $container-style: fluid;
    //border: solid 1px $c-white;
    margin-top:60px;
    color:$c-spun--pearl;
-   font-family:$ff--regular;
+   font-family:$ff--alternate;
    font-size:12px;
+   font-weight: $fw--500;
+   letter-spacing: 1px;
    a{
      color:$c-spun--pearl;
    }
