@@ -25,8 +25,18 @@ function openTab(evt, tabname) {
 (function ($){
   // views_slideshow_singleframe_teaser_section
   $(document).ready(function(){
-    $('.views_slideshow_cycle_teaser_section').each(function(){
-	  $(this).removeAttr('style');
+    $('#edit-field-name-0-value').each(function(){
+	  $(this).attr("placeholder", "Name");
+    console.log($(this));
+    });
+
+    $('#edit-field-phone-0-value').each(function(){
+	  $(this).attr("placeholder", "Phone");
+    console.log($(this));
+    });
+
+    $('#edit-field-email-0-value').each(function(){
+	  $(this).attr("placeholder", "Email");
     console.log($(this));
     });
 
