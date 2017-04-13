@@ -231,27 +231,31 @@ $small-range: 381px 800px;
       z-index: 200;
       top: 46%;
       left:2%;
-      background-image: url('previus.png');
-      background-repeat: no-repeat;
+      //background-image:url("/themes/pattern-lab-starter/images/prev_icon.png");
+      //background-repeat: no-repeat;
       a{
         color:$c-white;
         font-size: 35px;
       }
       /*.fa { transform: scale(3.9,1); }*/
+      &:before {
+        //content: url("/racc-drupal-school-jo/themes/pattern-lab-starter/images/prev_icon.png");
+        content: url("/themes/pattern-lab-starter/images/prev_icon.png");
+      }
     }
 
     #views_slideshow_controls_text_next_slider-homepage_slideshow{
       position:absolute;
       z-index: 200;
       top:46%;
-      left:96%;
+      left:95.5%;
       a{
         color:$c-white;
         font-size: 35px;
-        //content: "→";
-        /*&::after{
-          content: "→";
-        }*/
+      }
+      &:before {
+        //content: url("/racc-drupal-school-jo/themes/pattern-lab-starter/images/next_icon.png");
+        content: url("/themes/pattern-lab-starter/images/next_icon.png");
       }
     }
 
