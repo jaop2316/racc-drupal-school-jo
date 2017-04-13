@@ -34,6 +34,11 @@
       "name": "$bp--xxxlarge",
       "value": "1600px",
       "comment": ""
+    },
+    {
+      "name": "$bp--medium-range",
+      "value": "1250px 1400px",
+      "comment": ""
     }
   ],
   "meta": {
