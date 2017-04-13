@@ -4345,10 +4345,10 @@ html {
   .form-block .contact-content {
     width: 83.13253%;
     float: left;
-    margin-left: 266px;
     background-color: #9799a1;
     padding-bottom: 50px;
     padding-left: 40px;
+    float: right;
   }
   .form-block .contact-content h2 {
     padding-top: 40px;
