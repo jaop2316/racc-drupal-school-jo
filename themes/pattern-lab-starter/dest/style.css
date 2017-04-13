@@ -3968,6 +3968,7 @@ pre code:after, pre code:before {
   display: inline-block;
   text-decoration: none;
   text-align: center;
+  font-size: 15px;
 }
 
 .button:link, .button:visited {
@@ -3989,6 +3990,7 @@ pre code:after, pre code:before {
   display: inline-block;
   text-decoration: none;
   text-align: center;
+  font-size: 15px;
   background: #f2f2f2;
   color: #ba0820;
 }
@@ -4018,6 +4020,7 @@ input[type="submit"],
   display: inline-block;
   text-decoration: none;
   text-align: center;
+  font-size: 15px;
   border: 2px solid white;
   color: white;
   float: left;

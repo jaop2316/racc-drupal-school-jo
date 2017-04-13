@@ -8,6 +8,7 @@
   display: inline-block;
   text-decoration: none;
   text-align: center;
+  font-size: 15px;
   @if $alt {
     background: $c-concrete;
     color: $c-red;
