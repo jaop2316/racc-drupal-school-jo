@@ -39,6 +39,7 @@ $base-line-height: 24px;
       height: 90px;
       color:$c-white;
       font-family: $ff--alternate;
+      font-weight: $fw--100;
     /*  &:hover{
         background-color:$c-pomegranate;
       }*/
@@ -57,6 +58,7 @@ $base-line-height: 24px;
       color:$c-white;
       height: 90px;
       font-family: $ff--alternate;
+      font-weight: $fw--100;
       /*&:hover{
         background-color:$c-pomegranate;
       }*/
@@ -75,6 +77,7 @@ $base-line-height: 24px;
       color:$c-white;
       height: 90px;
       font-family: $ff--alternate;
+      font-weight: $fw--100;
     /*  &:hover{
         background-color:$c-pomegranate;
       }*/
@@ -94,6 +97,7 @@ $base-line-height: 24px;
       color:$c-white;
       height: 90px;
       font-family: $ff--alternate;
+      font-weight: $fw--100;
       /*&:hover{
         background-color:$c-pomegranate;
       }*/
@@ -138,6 +142,7 @@ $base-line-height: 24px;
         //margin-left: 277px;
         //color:$c-white;
         font-family: $ff--alternate;
+
         /*&:hover{
           background-color:$c-pomegranate;
         }*/
@@ -147,6 +152,7 @@ $base-line-height: 24px;
         //font-weight: 400;
         line-height: 39px;
         padding-top: 60px;
+        font-weight: $fw--100;
         }
 
       }
@@ -156,6 +162,7 @@ $base-line-height: 24px;
         color:$c-white;
         height: 194px;
         font-family: $ff--alternate;
+        //font-weight: $fw--100;
         //margin-left: 277px;
       /*  &:hover{
           background-color:$c-pomegranate;
@@ -166,6 +173,7 @@ $base-line-height: 24px;
         font-weight: 400;
         line-height: 39px;
         padding-top: 60px;
+        font-weight: $fw--100;
         }
         .active{
           background-color:$c-pomegranate;
@@ -178,6 +186,7 @@ $base-line-height: 24px;
         color:$c-white;
         height: 194px;
         font-family: $ff--alternate;
+
         //margin-left: 277px;
       /*  &:hover{
           background-color:$c-pomegranate;
@@ -188,6 +197,7 @@ $base-line-height: 24px;
         font-weight: 400;
         line-height: 39px;
         padding-top: 60px;
+        font-weight: $fw--100;
         }
         .active{
           background-color:$c-pomegranate;
@@ -201,6 +211,7 @@ $base-line-height: 24px;
         color:$c-white;
         height: 194px;
         font-family: $ff--alternate;
+        //font-weight: $fw--100;
         //margin-left: 277px;
         /*&:hover{
           background-color:$c-pomegranate;
@@ -211,6 +222,7 @@ $base-line-height: 24px;
         font-weight: 400;
         line-height: 39px;
         padding-top: 60px;
+        font-weight: $fw--100;
         }
         .active{
           background-color:$c-pomegranate;
@@ -234,6 +246,7 @@ $base-line-height: 24px;
         line-height: 39px;
         text-align: left;
         padding-left: 30px;
+        font-weight: $fw--100;
       }
 
       ul{
@@ -251,7 +264,7 @@ $base-line-height: 24px;
           font-family: $ff--alternate;
           color:$c-black;
           font-size: 35px;
-          font-weight: 400;
+          font-weight: $fw--100;
           line-height: 2.5rem;
           text-align: left;
           padding-left:50px;

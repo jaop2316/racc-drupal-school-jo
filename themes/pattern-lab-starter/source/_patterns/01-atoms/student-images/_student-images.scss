@@ -54,17 +54,27 @@ $base-line-height: 24px;
       color:$c-white;
       font-family: $ff--alternate;
       font-size: 22px;
+      font-weight: $fw--400;
     }
 
     h2{
       color:$c-white;
       padding-left: 20px;
+      font-family: $ff--alternate;
+      font-weight: $fw--100;
+      font-size: 2.1875rem;
+
     }
 
     p{
       color:$c-white;
-      padding-top: 20px;
-      padding-left: 15px;
+      padding-top: 30px;
+      padding-left: 21px;
+      font-family: $ff--regular;
+      font-size: 0.725rem;
+      font-weight: 400;
+      line-height: 2;
+      letter-spacing: 0.7px;
     }
 
 
@@ -77,6 +87,7 @@ $base-line-height: 24px;
       font-family:$ff--alternate;
       font-size: 35px;
       padding-left: 50px;
+      font-weight:$fw--400;
     }
   }
 }

@@ -6,7 +6,7 @@
 /* FONT PATH
  * -------------------------- */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-@import url("https://fonts.googleapis.com/css?family=Raleway:100");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @font-face {
   font-family: 'FontAwesome';
@@ -4141,15 +4141,24 @@ html {
     color: white;
     font-family: "Raleway", sans-serif;
     font-size: 22px;
+    font-weight: 400;
   }
   .student-block-container h2 {
     color: white;
     padding-left: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    font-size: 2.1875rem;
   }
   .student-block-container p {
     color: white;
-    padding-top: 20px;
-    padding-left: 15px;
+    padding-top: 30px;
+    padding-left: 21px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.725rem;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.7px;
   }
 }
 
@@ -4157,6 +4166,7 @@ html {
   font-family: "Raleway", sans-serif;
   font-size: 35px;
   padding-left: 50px;
+  font-weight: 400;
 }
 
 .last-news-container {
@@ -5651,6 +5661,7 @@ html {
     height: 90px;
     color: white;
     font-family: "Raleway", sans-serif;
+    font-weight: 100;
     /*  &:hover{
         background-color:$c-pomegranate;
       }*/
@@ -5672,6 +5683,7 @@ html {
     color: white;
     height: 90px;
     font-family: "Raleway", sans-serif;
+    font-weight: 100;
     /*&:hover{
         background-color:$c-pomegranate;
       }*/
@@ -5693,6 +5705,7 @@ html {
     color: white;
     height: 90px;
     font-family: "Raleway", sans-serif;
+    font-weight: 100;
     /*  &:hover{
         background-color:$c-pomegranate;
       }*/
@@ -5714,6 +5727,7 @@ html {
     color: white;
     height: 90px;
     font-family: "Raleway", sans-serif;
+    font-weight: 100;
     /*&:hover{
         background-color:$c-pomegranate;
       }*/
@@ -5784,6 +5798,7 @@ html {
     text-align: center;
     line-height: 39px;
     padding-top: 60px;
+    font-weight: 100;
   }
   .information-block .col-izquierda .box2 {
     width: 100%;
@@ -5804,6 +5819,7 @@ html {
     font-weight: 400;
     line-height: 39px;
     padding-top: 60px;
+    font-weight: 100;
   }
   .information-block .col-izquierda .box2 .active {
     background-color: #f23321;
@@ -5827,6 +5843,7 @@ html {
     font-weight: 400;
     line-height: 39px;
     padding-top: 60px;
+    font-weight: 100;
   }
   .information-block .col-izquierda .box3 .active {
     background-color: #f23321;
@@ -5850,6 +5867,7 @@ html {
     font-weight: 400;
     line-height: 39px;
     padding-top: 60px;
+    font-weight: 100;
   }
   .information-block .col-izquierda .box4 .active {
     background-color: #f23321;
@@ -5870,6 +5888,7 @@ html {
     line-height: 39px;
     text-align: left;
     padding-left: 30px;
+    font-weight: 100;
   }
   .information-block .col-derecha .tab-content ul {
     list-style: none;
@@ -5881,7 +5900,7 @@ html {
     font-family: "Raleway", sans-serif;
     color: black;
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 2.5rem;
     text-align: left;
     padding-left: 50px;
@@ -6042,6 +6061,7 @@ html {
     padding-left: 50px;
     padding-bottom: 45px;
     font-size: 35px;
+    font-weight: 400;
   }
   .list-events .col-events {
     padding-left: 85px;
@@ -6615,6 +6635,7 @@ html {
     z-index: 200;
     left: 11%;
     color: white;
+    display: none;
   }
   .slider #views_slideshow_slide_counter_slider-homepage_slideshow .num::before {
     content: "-";
@@ -6715,7 +6736,7 @@ html {
     font-family: "Raleway", sans-serif;
     color: white;
     font-size: 35px;
-    font-weight: 100px;
+    font-weight: 100;
     padding-left: 45px;
     padding-top: 70px;
   }
@@ -6749,6 +6770,7 @@ html {
     font-size: 35px;
     padding-left: 45px;
     padding-top: 20px;
+    font-weight: 100;
   }
   .generic-content .col-right-title {
     width: 49.39759%;

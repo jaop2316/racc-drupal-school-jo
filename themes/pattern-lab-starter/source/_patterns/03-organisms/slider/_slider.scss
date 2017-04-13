@@ -265,7 +265,7 @@ $small-range: 381px 800px;
       z-index: 200;
       left: 11%;
       color:$c-white;
-      //display:none;
+      display:none;
       .num{
         &::before{
           content: "-";
